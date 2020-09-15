@@ -1,5 +1,5 @@
 import React from "react";
-import "./Todo.css";
+import "./todo.css";
 
 function Todo({ todo, toggleComplete, removeTodo }) {
   function handleCheckboxClick() {
