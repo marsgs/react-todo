@@ -4,7 +4,7 @@ import { List } from "@material-ui/core";
 
 function TodoList({ todos, toggleComplete, removeTodo }) {
   return (
-    <List>
+    <li>
       {todos.map((todo) => (
         <Todo
           key={todo.id}
@@ -13,7 +13,7 @@ function TodoList({ todos, toggleComplete, removeTodo }) {
           removeTodo={removeTodo}
         />
       ))}
-    </List>
+    </li>
   );
 }
 export default TodoList;

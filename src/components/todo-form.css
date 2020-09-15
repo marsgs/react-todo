@@ -1,0 +1,60 @@
+.todo-form {
+  margin: 1rem 0;
+  font-size: 0.985rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.heading img {
+  height: 60px;
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+.todo-form input {
+  font-size: 0.875rem;
+  transition: 0.3s;
+  border: none;
+  border: solid 1px #e27d7dcc;
+  outline: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 0.3rem;
+  padding-right: 1.75rem;
+  margin: 0;
+}
+
+.todo-form button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: inline-flex;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4px;
+  height: 1.8rem;
+  border-radius: 4px;
+  min-width: 24px;
+  margin-left: -1.65rem;
+}
+
+.align {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.align button img {
+  width: 18px;
+}

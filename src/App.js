@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Typography } from "@material-ui/core";
-import logo from "./planner.svg";
 import "./App.css";
 import TodoForm from "./components/TodoForm";
 import TodoList from "./components/TodoList";
@@ -55,12 +54,6 @@ function App() {
 
   return (
     <div className="App">
-      <Typography style={{ padding: 16 }} variant="h1">
-        React To do
-      </Typography>
-
-      <img src={logo} className="App-logo" alt="logo" />
-      {/* passing addTodo function to TodoForm component */}
       <TodoForm addTodo={addTodo} />
       <TodoList
         todos={todos}
